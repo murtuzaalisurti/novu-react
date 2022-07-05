@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <div className="notify">
-      <NovuProvider subscriberId={'murtuza1290'} applicationIdentifier={'uiklkqKaZG6X'}>
+      <NovuProvider subscriberId={'subscriber_id'} applicationIdentifier={'app_id'}>
         <PopoverNotificationCenter colorScheme={'dark'} onNotificationClick={onNotificationClick}>
           {({ unseenCount, theme }) => <NotificationBell unseenCount={unseenCount} theme={theme} />}
         </PopoverNotificationCenter>
